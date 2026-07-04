@@ -1,0 +1,15 @@
+{
+	"name": "dfproadfs",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bdf42aa1-49c5-4fff-b3b4-ae7c327fbcbe",
+		"tenantId": "c2912015-2f26-491f-a354-615e7dcf84db"
+	}
+}
