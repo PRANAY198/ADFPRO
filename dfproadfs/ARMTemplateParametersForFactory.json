@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfproadfs"
+		},
+		"last_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_sqldb_password": {
+			"value": ""
+		},
+		"last_datalake_properties_typeProperties_url": {
+			"value": "https://dfprostoragess.dfs.core.windows.net/"
+		},
+		"ls_restapi_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "dfprodb.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "dfsqlpro"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "pranayadmin"
+		},
+		"schedule_properties_Scheduled_parameters_schema": {
+			"value": "source"
+		},
+		"schedule_properties_Scheduled_parameters_table": {
+			"value": "Orders"
+		}
+	}
+}
